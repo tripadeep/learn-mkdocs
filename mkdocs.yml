@@ -1,7 +1,9 @@
 site_name: PySpark Documentation
 site_description: A concise, practical PySpark reference and tutorial set
-site_author: "PySpark Docs Team"
-repo_url: https://github.com/yourusername/learn-mkdocs
+site_author: "Deeptanshu Tripathi mailto:learndeeptanshu@gmail.com"
+repo_url: https://github.com/tripadeep/learn-mkdocs/
+plugins:
+  - social
 theme:
   name: material
   features:
