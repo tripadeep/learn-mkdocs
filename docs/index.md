@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# PySpark Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the PySpark Documentation — a practical, concise reference for working with PySpark. This site covers core concepts, common APIs, tutorials, and reference material for deploying and configuring PySpark applications.
 
-## Commands
+## Quick links
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- **Getting Started** — guides/getting-started.md
+- **Core Concepts** — guides/core-concepts.md
+- **DataFrame API** — guides/dataframe-api.md
+- **Tutorials** — tutorials/wordcount.md, tutorials/etl-pipeline.md
+- **Reference** — reference/configuration.md
 
-## Project layout
+> This documentation is written for PySpark 3.x and assumes a basic familiarity with Python. Code examples use the PySpark Python API and show common patterns for local development and cluster deployment.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## Contributing
+
+We welcome improvements. To propose changes, edit the repository and open a pull request. See `CONTRIBUTING.md` for guidelines.

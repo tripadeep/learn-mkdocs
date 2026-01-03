@@ -1,1 +1,33 @@
-site_name: My Docs
+site_name: PySpark Documentation
+site_description: A concise, practical PySpark reference and tutorial set
+site_author: "PySpark Docs Team"
+repo_url: https://github.com/yourusername/learn-mkdocs
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Guides:
+      - Getting Started: guides/getting-started.md
+      - Core Concepts: guides/core-concepts.md
+      - DataFrame API: guides/dataframe-api.md
+      - RDD API: guides/rdd-api.md
+      - SQL & SparkSession: guides/sql-sparksession.md
+      - Structured Streaming: guides/structured-streaming.md
+  - Tutorials:
+      - Word Count: tutorials/wordcount.md
+      - ETL Pipeline: tutorials/etl-pipeline.md
+  - Reference:
+      - Configuration: reference/configuration.md
+      - Deployment: reference/deployment.md
+  - Blog:
+      - Blog Index: blog/index.md
+  - Tags: tags.md

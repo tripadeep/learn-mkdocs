@@ -1,13 +1,24 @@
 ---
 date:
-  created: 2024-05-04
+  created: 2026-01-04
+draft: true
+categories:
+  - Tutorials
+tags:
+  - pyspark
+  - partitioning
+authors:
+  - team
 ---
 
-# May the 4th be with you!
+# Draft: Partitioning Strategies in PySpark
 
-Happy Star Wars Day to all!
+Notes on partitioning for performance and shuffles. Topics to finish: examples for `repartition`, `coalesce`, and partitioning by column on write.
+
+- When to repartition before a shuffle
+- When to use `coalesce` to reduce partitions
+- Partitioning writes by columns for faster reads
 
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+(Work in progress.)

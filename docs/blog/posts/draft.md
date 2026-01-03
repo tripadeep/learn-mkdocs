@@ -1,13 +1,24 @@
 ---
 date:
-  created: 2024-01-01
+  created: 2026-01-04
 draft: true
+categories:
+  - Tips
+tags:
+  - pyspark
+  - tips
+authors:
+  - team
 ---
 
-# Happy new year!
+# PySpark Tips: Efficient Filtering
 
-Happy 2024 to everyone. Wishing you all the best!
-<!-- more -->
+Quick tip: prefer `filter` on DataFrames with column expressions rather than Python functions for better performance because Spark can optimize the filter operation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+```python
+from pyspark.sql.functions import col
+
+df_filtered = df.filter(col("value") > 100)
+```
+
+This is a draft post — polish and publish when ready.

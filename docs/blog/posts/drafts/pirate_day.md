@@ -1,13 +1,18 @@
 ---
 date:
-  created: 2024-09-19
+  created: 2026-01-04
+draft: true
+categories:
+  - Tutorials
+tags:
+  - pyspark
+  - udfs
+authors:
+  - team
 ---
 
-# Happy speak like a pirate day to all!
+# Draft: When to Use UDFs vs Built-in Functions
 
-Arr!
+Notes comparing performance and use-cases of Python UDFs and built-in Spark SQL functions. To complete: microbenchmarks and using pandas UDFs.
 
-<!-- more -->
-
-Also, note how the slug for this post has been shortened to five words thanks
-to the custom slugify function.
+(Work in progress.)

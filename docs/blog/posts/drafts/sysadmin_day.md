@@ -1,13 +1,18 @@
 ---
 date:
-  created: 2024-07-26
+  created: 2026-01-04
+draft: true
+categories:
+  - Ops
+tags:
+  - pyspark
+  - monitoring
+authors:
+  - team
 ---
 
-# Happy sysadmin appreciation day!
+# Draft: Monitoring PySpark Jobs
 
-Bake them a cake.
+Notes on monitoring, including the Spark UI, metrics, and useful logging configurations. To complete: examples for enabling metrics and connecting to Prometheus.
 
-<!-- more -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+(Work in progress.)

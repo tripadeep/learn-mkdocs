@@ -1,4 +1,5 @@
-# The Material Team
+# PySpark Docs Team
 
-A small group of people dedicated to making writing documentation easy, if
-not outright fun! Here are some of the things we have blogged about:
+A group of engineers and data practitioners maintaining these PySpark guides and tutorials. Contributors focus on practical examples, reproducible pipelines, and clear API usage.
+
+If you'd like to contribute, add your profile to `docs/blog/.authors.yml` and open a pull request.

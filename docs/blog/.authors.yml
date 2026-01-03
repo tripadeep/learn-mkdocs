@@ -1,9 +1,9 @@
 authors:
   team:
-    name: Team
-    description: Creator
-    avatar: https://simpleicons.org/icons/materialformkdocs.svg
-  squidfunk:
-    name: Martin Donath
-    description: Creator
-    avatar: https://github.com/squidfunk.png
+    name: PySpark Docs Team
+    description: Documentation maintainers and contributors
+    avatar: https://github.com/yourorg.png
+  alice:
+    name: Alice Smith
+    description: Data engineer and PySpark contributor
+    avatar: https://github.com/alicesmith.png

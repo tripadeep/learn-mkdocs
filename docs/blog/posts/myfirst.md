@@ -1,29 +1,36 @@
 ---
 date:
-  created: 2023-12-31
-  updated: 2024-01-02
-readtime: 15
-pin: true
-links:
-  - Homepage: index.md#project-layout
-  - Blog index: blog/index.md
-  - External links:
-    - Material documentation: https://squidfunk.github.io/mkdocs-material
+  created: 2026-01-04
+readtime: 5
 categories:
-  - Holidays
+  - Introduction
 tags:
-  - new year
-  - hogmanay
-  - festive season
+  - pyspark
+  - getting-started
 authors:
   - team
-slug: ny-eve
+slug: intro-pyspark
 ---
 
-# Happy new years eve 2026!
+# Introduction to PySpark
 
-We hope you are all having fun and wish you all the best for the new year!
+PySpark is the Python API for Apache Spark — a unified analytics engine for large-scale data processing. This post explains what PySpark is, when to use it, and how to start a local Spark session.
+
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+## Quick example
+
+```python
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder 
+    .appName("pyspark-intro") 
+    .master("local[*]") 
+    .getOrCreate()
+
+print(spark.version)
+
+spark.stop()
+```
+
+For hands-on examples, see the Tutorials section of this site.

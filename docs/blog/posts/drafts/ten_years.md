@@ -1,13 +1,18 @@
 ---
 date:
-  created: 2026-02-09
+  created: 2026-01-04
+draft: true
+categories:
+  - Announcements
+tags:
+  - pyspark
+  - roadmap
+authors:
+  - team
 ---
 
-# Happy 10th birthday, Material for MkDocs!
+# Roadmap: PySpark Docs
 
-It has been an amazing journey.
+Planned topics for this documentation site: core API, tutorials, deployment guides, and reference pages. Contributions welcome.
 
-<!-- more -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+(Work in progress.)

@@ -1,15 +1,24 @@
 ---
 date:
-  created: 2024-05-01
+  created: 2026-01-04
+draft: true
 categories:
-  - Holidays
+  - Tips
+tags:
+  - pyspark
+  - nulls
+authors:
+  - team
 ---
 
-# Happy May Day!
+# Draft: Handling Nulls and Defaults
 
-Happy May Day 2024 to everyone. Wishing you all the best!
+Draft notes on handling nulls in DataFrames, using `na.fill`, `na.drop`, and safe SQL expressions.
 
-<!-- more -->
+Examples to add:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+```python
+df.na.fill({"col1": 0, "col2": "unknown"})
+```
+
+(Work in progress.)
